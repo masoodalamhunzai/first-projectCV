@@ -11,7 +11,7 @@ h1 h2 h3 h4 h5 h6 p {
     height: auto;
     margin: 0px;
     padding: 0px;
-    background-color: rgb(156, 152, 152);
+    background-color: rgb(61, 57, 57);
 }
 /* Container */
 #container{
@@ -20,16 +20,15 @@ padding:0px;
 background-color: antiquewhite;
 width: 1000px;
 height: auto;
-border-top: dashed 1px maroon;
+border-top: solid 1px maroon;
 }
 /*  Create Div */
 .create_div {
     width:inherit;
     height: 310px;
     margin: 0px;
-    padding: 0px;
+    padding: 0px;  
 }
-
 /* Create Div title */
 .p_detail_title{
     width:300px;
@@ -38,8 +37,9 @@ border-top: dashed 1px maroon;
     float: left;
     text-align: center;
     padding: 0px;
-    background-color: rgb(206, 198, 198);
-    border-right: dashed 1px maroon;
+    background-color: rgb(207, 203, 203);
+    border-right: solid 1px maroon;
+    border-left: solid 1px maroon;
     box-sizing: border-box;
 }
 /* create detail div */
@@ -50,17 +50,18 @@ border-top: dashed 1px maroon;
     background-color: rgb(250, 246, 246);
     overflow: hidden;  
     margin: 0px;
-    border-bottom: dashed 1px maroon;
     box-sizing: border-box;
+    border-bottom: solid 1px maroon;
 }
 /* Profile Picture */
 .p_detail_title img{
     margin-top:20px;
     margin-left:30px;
-    border:1px solid rgb(250, 246, 246);
+    border:2px solid rgb(250, 246, 246);
     width:180px;
     height: 180px;
-    opacity: 0.7;
+    opacity: 0.9;
+    border-radius: 3px;
 }
 .personal_details #info{
     width: 300px;
@@ -102,13 +103,14 @@ h3{
     font-size: 1.3em;
     font-weight: bold;
     padding: 10px;
-    margin-top:50px;
+    margin-top:70px;
+    text-transform: uppercase;
 }
 h4{
     color:rgb(141, 24, 24);
     font-size: 0.9em;
     font-weight:lighter;
-    margin-left:15px;
+    margin-left:40px;
     margin-top:8px;
     padding: 0px;
     line-height: 1em;
@@ -138,7 +140,7 @@ hr{
     height: 0px;
     margin-top:40px;
     margin-left: 15%;
-    color:rgb(245, 231, 231);
+    background-color:rgb(202, 151, 151);
 }
 ul{
     padding: 0px;
